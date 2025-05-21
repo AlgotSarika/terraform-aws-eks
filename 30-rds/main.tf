@@ -8,7 +8,7 @@ module "db" {
   allocated_storage = 20
 
   db_name  = "transactions" # AWS will create this schema automatically
-  username = "root"
+  username = "expense"
   port     = "3306"
   password = "ExpenseApp1"
   manage_master_user_password = false
