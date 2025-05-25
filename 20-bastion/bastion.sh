@@ -38,3 +38,5 @@ ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 dnf install mysql -y
 
 curl -sS https://webinstall.dev/k9s | bash
+
+dnf install build-utils -y
